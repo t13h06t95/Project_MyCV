@@ -1,0 +1,233 @@
+/* container */
+.container {
+    border: 2px solid #ccc;
+}
+
+.container .container {
+    background-color: #fffde7;
+}
+
+/* header */
+/* navbar */
+.navbar {
+    background-color: #cccab5;
+}
+
+.navbar .navbar-brand>h1 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+/* footer */
+
+/* body */
+
+
+/* about */
+.about {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.about .about_content .about_txt>h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.about .about_content .about_txt>h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.about .about_content .about_txt>p {
+    font-size: 16px;
+    line-height: 1.5rem;
+    margin-bottom: 10px;
+}
+
+
+.about .about_content .about_img img {
+    border: 2px solid #000;
+    border-radius: 50%;
+    animation: spin 15s linear infinite
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(-4deg);
+    }
+
+    50% {
+        transform: rotate(4deg);
+    }
+
+    100% {
+        transform: rotate(-4deg);
+    }
+}
+
+/* specialize */
+.specialize {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-top: 0;
+    padding: 10px;
+    border-radius: 2%;
+    box-shadow: 20px 10px 8px 0 #eee;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.specialize .specialize_header>h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.specialize .specialize_content .row {
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.specialize .specialize_content .programming {
+    margin-top: 20px;
+}
+
+.specialize .specialize_content .programming .programming_txt {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.specialize .specialize_content .programming .programming_txt>h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.specialize .specialize_content .programming .programming_img {
+    text-align: center;
+}
+
+.specialize .specialize_content .programming .programming_img>img {
+    width: 140px;
+    height: 170px;
+}
+
+/* Education */
+.education {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.education .education_header>h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.education .education_content .education_social .education_img {
+    margin-top: 20px;
+}
+
+.education .education_content .education_social .education_icon .icon_list {
+    font-size: 20px;
+    justify-content: space-around;
+    border: 1px solid #ddd;
+    box-shadow: 0px 15px 8px 5px #eee;
+    margin: 0;
+    padding: 10px;
+}
+
+.education .education_content .education_social .education_icon .icon_list>li {
+    list-style-type: none;
+}
+
+.education .education_content .education_txt .txt_header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.education .education_content .education_txt .txt_header>h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.education .education_content .education_txt .row {
+    justify-content: space-between;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.education .education_content .education_txt .row>h6 {
+    font-weight: bold;
+}
+
+.education .education_content .education_txt .txt_content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.education .education_content .education_txt .txt_content>h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.education .education_content .education_txt .txt_content>p {
+    font-size: 16px;
+    line-height: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Skill */
+.skill {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.skill .skill_header>h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.skill .skill_content .skill_progress {
+    margin-top: 15px;
+}
+
+.skill .skill_content .skill_progress>h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.skill .skill_content .skill_progress .progress {
+    height: 10px;
+}
+
+.skill .skill_content .skill_progress .progress .progress-bar {
+    text-align: right;
+    background: linear-gradient(to right, #35a22c,#0ea8cf);
+    animation-name: progress;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes progress {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
